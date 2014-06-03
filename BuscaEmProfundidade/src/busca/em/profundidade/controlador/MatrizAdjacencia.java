@@ -82,7 +82,7 @@ public class MatrizAdjacencia {
 					semAdjacencia = false;
 					marcarColuna(i, 1, 2);
 					pilha.push(i);
-					i = 10;
+					i = linha.length;
 				}
 			}
 
