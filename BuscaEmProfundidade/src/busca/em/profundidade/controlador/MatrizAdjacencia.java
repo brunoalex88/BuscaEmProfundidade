@@ -91,6 +91,8 @@ public class MatrizAdjacencia {
 				pilha.pop();
 			}
 
+			MensagemGUI.exibirMensagem(this.toString(), "Matriz");
+			
 		} while (pilha.lenght() > 0);
 
 	}
